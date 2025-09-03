@@ -33,7 +33,7 @@ const NavigationBar = () => {
 
   const userAuth = (
     <div className="user-info d-flex align-items-center gap-3">
-      <Nav.Link href="/test">Carte stationnement</Nav.Link> 
+      {user?.role === "admin"? <Nav.Link href="/test">Carte stationnement</Nav.Link> : ""}
       <Nav.Link href="/report" className="text-white">
         Ajouter un signalement
       </Nav.Link>
