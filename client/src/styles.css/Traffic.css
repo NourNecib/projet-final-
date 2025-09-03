@@ -1,0 +1,33 @@
+.traffic-container {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 12px;
+  text-align: center;
+  color: #333;
+  font-family: "Segoe UI", sans-serif;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.traffic-status {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Couleurs selon le trafic */
+.light {
+  background-color: #d4edda; /* vert clair */
+  border-left: 10px solid #28a745;
+}
+
+.moderate {
+  background-color: #fff3cd; /* jaune clair */
+  border-left: 10px solid #ffc107;
+}
+
+.heavy {
+  background-color: #f8d7da; /* rouge clair */
+  border-left: 10px solid #dc3545;
+}

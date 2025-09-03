@@ -1,0 +1,31 @@
+.noise-container {
+  padding: 20px;
+  margin: 20px auto; /* Centrage horizontal + espacement vertical */
+  max-width: 600px;  /* Alignement en largeur avec Weather & Traffic */
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Harmonisation visuelle */
+}
+
+.noise-status {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Couleurs selon niveau de bruit */
+.low {
+  background-color: #d4edda; /* Vert clair */
+  border-left: 10px solid #28a745;
+}
+
+.medium {
+  background-color: #fff3cd; /* Jaune clair */
+  border-left: 10px solid #ffc107;
+}
+
+.high {
+  background-color: #f8d7da; /* Rouge clair */
+  border-left: 10px solid #dc3545;
+}
