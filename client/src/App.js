@@ -15,9 +15,10 @@ function App() {
   return (
     <Router>
       <NavigationBar />
-      <Dashboard /> 
+      <Dashboard/>
       <Routes>
-        <Route path="/" element={<ParkingMap />} />
+        
+        {/* <Route path="/" element={<ParkingMap />} /> */}
         <Route
           path="/user-dashboard"
           element={

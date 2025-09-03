@@ -7,14 +7,17 @@ import { logout, getAuth } from "../Redux/actions";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import "../styles.css/NavigationBar.css"; 
+import { useNavigate } from "react-router-dom";
 
 const NavigationBar = () => {
   const dispatch = useDispatch();
 
   const user = useSelector((state) => state.user);
+  const navigate = useNavigate()
 
   const logoutUser = () => {
     dispatch(logout());
+    navigate("/")
   };
 
   useEffect(() => {
@@ -30,7 +33,7 @@ const NavigationBar = () => {
 
   const userAuth = (
     <div className="user-info d-flex align-items-center gap-3">
-      <Nav.Link href="/">Carte stationnement</Nav.Link> 
+      <Nav.Link href="/test">Carte stationnement</Nav.Link> 
       <Nav.Link href="/report" className="text-white">
         Ajouter un signalement
       </Nav.Link>
