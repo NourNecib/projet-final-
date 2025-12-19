@@ -94,8 +94,8 @@ Diplômé(e) en architecture en novembre 2024, j’ai suivi une formation intens
 
 Contact
 Développé par : [Nour Necib]
-📧 Email : [nour.necib02@gmail.com]
-🔗 LinkedIn : https://www.linkedin.com/in/nour-necib
+ Email : [nour.necib02@gmail.com]
+ LinkedIn : https://www.linkedin.com/in/nour-necib
 
-⚖️ Licence
+Licence
 Ce projet est open-source sous licence MIT.
